@@ -14,12 +14,13 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   i = 0
   numberArray = Array.new
-  while iter < src.length do
-    if src[iter][0] > src[iter][1]
-      numberArray.push(src[iter][0])
+  while i < src.length do
+    if src[i][0] > src[i][1]
+      numberArray.push(src[i][0])
     else
-      numberArray.push(src[iter][1])
+      numberArray.push(src[i][1])
     end
+    i+=1
   end
   return numberArray
 end
