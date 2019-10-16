@@ -2,10 +2,10 @@ def join_ingredients(src)
   iter = 0
   newString = ""
   while iter < src.length do
-    string_array.push("I love #{src[iter][0]} and #{src[iter][1]} on my pizza")
+    newString.push("I love #{src[iter][0]} and #{src[iter][1]} on my pizza")
     iter += 1
   end
-  string_array
+  newString
 end
 
 def find_greater_pair(src)
