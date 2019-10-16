@@ -21,7 +21,7 @@ def find_greater_pair(src)
       numberArray.push(src[iter][1])
     end
   end
-  numberArray
+  return numberArray
 end
 
 def total_even_pairs(src)
