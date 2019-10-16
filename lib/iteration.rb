@@ -1,6 +1,6 @@
 def join_ingredients(src)
   iter = 0
-  newString = 
+  newString = ""
   while iter < src.length do
     string_array.push("I love #{src[iter][0]} and #{src[iter][1]} on my pizza")
     iter += 1
