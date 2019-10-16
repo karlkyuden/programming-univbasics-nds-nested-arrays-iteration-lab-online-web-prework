@@ -20,7 +20,7 @@ def find_greater_pair(src)
     else
       numberArray.push(src[iter][1])
     end
-  end
+  
   return numberArray
 end
 
